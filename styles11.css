@@ -1,0 +1,126 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Courier new', monospace; 
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.main-content {
+    width: 70%; 
+    margin: 0 auto; 
+    padding: 200px;
+}
+
+.image-container {
+    width: 30%; 
+    float: right; 
+    padding: 90px;
+}
+
+.image-container img {
+    width: 100%; 
+    display: block; 
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    text-align: center; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+nav ul li a:hover {
+    background-color: #555; 
+}
+
+
+section {
+    padding: 40px 20px;
+}
+
+#hero {
+    background-color: #fff;
+    text-align: center;
+}
+
+#hero h2 {
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#features, #testimonials {
+    background-color: #f8f8f8;
+}
+
+#features ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.testimonial {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+#hero,
+#features,
+#testimonials,
+footer {
+    font-family: 'Helvetica'; 
+}
